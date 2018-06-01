@@ -48,7 +48,7 @@ detected, a message is sent over serial.
 - `SingleVNH5019MotorShield()`<br> Default constructor, selects the
   default pins as connected by the motor shield.
 - `SingleVNH5019MotorShield(unsigned char INA1, unsigned char INB1,
-  unsigned char PWM1, unsigned char EN1DIAG1, unsigned char CS1,)` 
+  unsigned char PWM1, unsigned char EN1DIAG1, unsigned char CS1)` 
   <br> Alternate constructor for
   shield connections remapped by user. If PWM1 is
   remapped, it will try to use analogWrite instead of timer1.
